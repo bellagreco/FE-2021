@@ -1,0 +1,105 @@
+.page-title {
+    margin-top: 90px;
+}
+
+.cards {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.card {
+    width: 414px;
+    height: 630px;
+    border-radius: 6px;
+    border: black solid 0px;
+    overflow: hidden;
+    box-shadow: 5px 10px;
+    -webkit-box-shadow: 0px 0px 9px -2px rgba(0, 0, 0, 0.59);
+    box-shadow: 0px 0px 9px -2px rgba(0, 0, 0, 0.35);
+}
+
+.card-text {
+    height: 300px;
+}
+
+.card h2 {
+    padding: 30px;
+}
+
+.card p {
+    padding: 0px 30px;
+    line-height: 27px;
+
+}
+
+.card a {
+    padding: 30px 30px;
+    line-height: 25px;
+    color: black;
+    font-weight: 500;
+
+}
+
+@media only screen and (max-width: 1245px) {
+    .page-title {
+        font-size: 15px;
+        padding: 25px 10px 12px 12px;
+        margin-top: 20px;
+        /* padding-bottom: 0px; */
+        justify-content: center;
+    }
+
+    .cards {
+        margin-top: 20px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .card {
+        margin: 12px 12px 4px 12px;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .card-text {
+        height: auto;
+    }
+
+
+    .card h2 {
+        font-size: 12px;
+        padding: 18px;
+    }
+
+    .card p {
+        font-size: 10px;
+        padding: 0px 20px 0 20px;
+        line-height: 16px;
+    }
+
+    .card a {
+        padding: 0px 0px !important;
+        line-height: 25px;
+        color: black;
+        font-weight: 500;
+        font-size: 11px;
+       
+
+    }
+
+    .link {
+        padding: 20px 20px 25px 20px !important;
+    }
+
+    
+
+}
+
+@media only screen and (min-width: 450px) and (max-width: 1246px) {
+    .page-title {
+       text-align: center !important;
+    }
+}
